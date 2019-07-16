@@ -1,8 +1,8 @@
 import React from 'react'
 
 
-const Country = (props) => {
-    const country = props.country
+const Country = ({country}) => {
+    //const country = props.country
     console.log(country)
     return (
         <div>
